@@ -1,2 +1,3 @@
-# discrete_logarithm_problem
-Provides performant Python implementations for a variety of DLP algorithms for Zp* and its subgroups
+# 🔐 Discrete Logarithm Solver
+
+Provides performant Python implementations of several **Discrete Logarithm Problem (DLP)** algorithms for prime order subgroups of prime fields ($F_p$). Given a 
