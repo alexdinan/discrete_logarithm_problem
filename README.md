@@ -11,10 +11,10 @@ Given the following parameters:
 
 Output: $\quad x \in [0,n-1]: \text{ such that } g^x \equiv h \bmod p$. We say that $x = \log_g{h}$
 
-<br><br>
+<br>
 
 ## Usage
-First install the sympy module with `pip install sympy'. 
+First install the sympy module with `pip install sympy`. 
 Then to find the discrete logarithm of `h=9292495388` modulo `p=554240741459` with base `g=4` and thus group order `n=277120370729`:
 
 ```bash
@@ -22,7 +22,7 @@ python main.py 554240741459 4 9292495388 277120370729
 ```
 
 
-<br><br>
+<br>
 
 ## Discrete log algorithms implemented
 - Shanks' Baby-step/Giant-step - exponential - $O(\sqrt{n})$
@@ -32,7 +32,9 @@ python main.py 554240741459 4 9292495388 277120370729
 - Adleman's Index Calculus - subexponential - $L_p(0.5, \sqrt{2})$
 - Linear Sieve - subexponential - $L_p(0.5, 1)$
 
-<br><br>
+<br>
 
 ## Research Paper
-[Download the full research paper (PDF)](paper.pdf)
+[![Preview of the research paper](assets/paper_page1.png)](paper.pdf)
+
+*Click the image above to view/download the full paper.*
